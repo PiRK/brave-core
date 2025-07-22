@@ -87,6 +87,10 @@ bool IsTransactionSimulationsEnabled() {
       features::kBraveWalletTransactionSimulationsFeature);
 }
 
+bool IsECashEnabled() {
+  return base::FeatureList::IsEnabled(features::kBraveWalletECashFeature);
+}
+
 bool IsAllowed(PrefService* prefs) {
   return !IsDisabledByPolicy(prefs);
 }

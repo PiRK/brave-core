@@ -64,4 +64,8 @@ BASE_FEATURE(kBraveWalletAnkrBalancesFeature,
 BASE_FEATURE(kBraveWalletTransactionSimulationsFeature,
              "BraveWalletTransactionSimulations",
              base::FEATURE_DISABLED_BY_DEFAULT);
+
+BASE_FEATURE(kBraveWalletECashFeature,
+             "BraveWalletECash",
+             base::FEATURE_DISABLED_BY_DEFAULT);
 }  // namespace brave_wallet::features

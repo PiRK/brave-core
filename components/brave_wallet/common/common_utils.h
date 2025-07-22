@@ -27,6 +27,7 @@ bool IsCardanoDAppSupportEnabled();
 bool IsZCashShieldedTransactionsEnabled();
 bool IsAnkrBalancesEnabled();
 bool IsTransactionSimulationsEnabled();
+bool IsECashEnabled();
 
 bool IsAllowed(PrefService* prefs);
 
